@@ -1,14 +1,8 @@
 const main = document.querySelector('main');
 var discos = [];
 
-//Verificar se há algo no localStorage
-var carrinho = JSON.parse(localStorage.getItem('carrinho'));
-if (carrinho == null) {
-    carrinho = [];
-}
-
 //Carregar os dados do arquivo JSON
-fetch('../disco.json')
+fetch('/assets/disco.json')
     .then(response => response.json())
     .then(data => {
         discos = data;

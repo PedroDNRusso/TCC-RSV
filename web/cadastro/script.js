@@ -8,7 +8,7 @@ if (carrinho == null) {
 }
 
 //Carregar os dados do arquivo JSON
-fetch('/assets/disco.json')
+fetch('disco.json')
     .then(response => response.json())
     .then(data => {
         discos = data;

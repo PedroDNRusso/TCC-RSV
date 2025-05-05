@@ -1,0 +1,252 @@
+@import url('/style.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --primary-color: #b31b00;
+    --primary-color-dark:#ff0000;
+    --primary-color-light:#e9f7f79a;
+    --secondary-color:#fb923c;
+    --secondary-color-dark: #c5671a; /* Corrigido "secundary" */
+    --text-dark:#000000;
+    --text-ligth:#767268;
+    --white:#ffffff;
+    --max-width:1200px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.cards main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--c5);
+    color: var(--c1);
+    overflow-y: auto;
+}
+
+.container {
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+    justify-content: center;
+}
+
+.container .containerLeft {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+        to right,
+        #ffae0069,
+        #ff00005d
+    ),
+    url('https://s2-gq.glbimg.com/zT5gl2AL72Wd2uB5XsE0ZAfNoBc=/0x0:620x413/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_71a8fe14ac6d40bd993eb59f7203fe6f/internal_photos/bs/2024/P/G/MC6U1zSjKtMlKjUawHVA/2021-04-21-vitrola-gq.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .containerLeft h1{
+    color: var(--white);
+    padding: 1%;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+.container .containerLeft h3{
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+.container .containerLeft h3:hover{
+    text-decoration-line:overline;
+    text-decoration-color: var(--primary-color-dark);
+    transition: all 0.3s ease-in-out;
+}
+
+.container .containerRight {
+	position: absolute;
+	height: 90vh;
+    width: 90vw;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+.container .containerRight h1 {
+	margin-bottom: 2rem;
+}
+
+.container .containerRight form label input {
+	width: 100%;
+	margin-bottom: 1rem;
+	margin-top: 5px;
+	padding: .75rem;
+	outline: 0;
+	border: 1px solid var(--text-ligth);
+	border-radius: 6px;
+}
+
+.container .containerRight form p {
+	text-align: right;
+	margin: 1rem 0;
+	font-size: 14px;
+}
+
+.container .containerRight form button {
+	width: 100%;
+	margin-top: 1rem;
+	padding: .75rem;
+	background: var(--primary-color);
+	border-radius: 6px;
+	border: 0;
+	color: #020202;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.container .containerRight form button:hover {
+	background: var(--primary-color-dark);
+}
+
+.container .containerRight a{
+    color: var(--text-dark);
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.container .containerRight a:hover{
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.card{
+    width: 280px;
+    height: 380px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    background-color: var(--primary-color-light);
+    color: var(--c1);
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: var(--c1) 0px 0px 5px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+    left: 5px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+	.container .containerRight {
+		position: static;
+		width: 60vw;
+	}
+}
+
+/* RESPONSIVIDADE ADICIONADA */
+
+@media (max-width: 1024px) {
+  .container .containerRight {
+    width: 80vw;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .container .containerLeft h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .container .containerLeft h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container .containerLeft {
+    height: 40vh;
+    background-position: top center;
+  }
+
+  .container .containerRight {
+    position: static;
+    width: 90vw;
+    height: auto;
+    margin-top: -30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .container .containerLeft h1 {
+    font-size: 2.5rem;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .card img {
+    height: auto;
+    max-height: 200px;
+  }
+}
+  
+@media (max-width: 480px) {
+  .container .containerLeft h1 {
+    font-size: 2rem;
+  }
+
+  .container .containerRight a {
+    font-size: 1.5rem;
+  }
+
+  .container .containerRight form button {
+    font-size: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "nome": "Dark Side of the Moon",
+        "artista": "Pink Floyd",
+        "ano": 1973,
+        "genero": "Rock",
+        "preco": 600.00,
+        "quantidade": 10,
+        "imagem": "https://i.discogs.com/jOMzEQJSqXh5Nw3zhj5EuZ6_DuoCKszahwxU5VIksh0/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4NDM0/MS0xNTQ4MTY5MzIz/LTE4MDcuanBlZw.jpeg"
+    },
+    {
+        "id": 2,
+        "nome": "Abbey Road",
+        "artista": "The Beatles",
+        "ano": 1969,
+        "genero": "Rock",
+        "preco": 500.00,
+        "quantidade": 15,
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiQnj1hBvLgZyri2UozQhFJLfciMpp92-DBQ&size=300x300&quality=95&auto=format"
+    },
+    {
+        "id": 3,
+        "nome": "Presence",
+        "artista": "Led Zeppelin",
+        "ano": 1976,
+        "genero": "Rock",
+        "preco": 700.00,
+        "quantidade": 8,
+        "imagem": "https://m.media-amazon.com/images/I/81koMgLv48L._UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "Vida Bandida",
+        "artista": "Lobão",
+        "ano": 1998,
+        "genero": "Rock",
+        "preco": 200.00,
+        "quantidade": 20,
+        "imagem": "https://upload.wikimedia.org/wikipedia/pt/7/79/Lob%C3%A3o-Vida-Bandida.jpg"
+    }
+]

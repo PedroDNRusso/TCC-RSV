@@ -51,10 +51,16 @@ Loja de venda de discos online, com carrinho e função de vender seus proprios 
 * [Canvas](https://wellifabio.github.io/canvas/)
 * [Cronograma](https://wellifabio.github.io/gantt/)
 
+## Wireframes
+
+![Wireframe01](./docs/Wireframe01.PNG)
+![Wireframe02](./docs/Wireframe02.PNG)
+
 ## Progresso de Desenvolvimento
 
 | Data  | Alterações |
 | ------------- |:-------------:|
 | 03/05/2025     | Começo do Projeto     |
+| 04/05/2025     | Desenvolvimento de Pagina Inicial e Cadastro (Front-End)     |
 
 ## ByPedroDuarte

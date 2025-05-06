@@ -19,18 +19,18 @@
 button {
     border-radius: 5px;
     border: none;
-    background-color: var(--c2);
-    color: var(--c5);
+    background-color: var(--primary-color);
+    color: var(--text-dark);
     font-size: 1.2rem;
     padding: 10px 20px;
-    box-shadow: var(--c1) 0px 0px 3px;
+    box-shadow: var(--text-dark) 0px 0px 3px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
 button:hover {
-    background-color: var(--c3);
-    box-shadow: var(--c1) 0px 0px 5px;
+    background-color: var(--primary-color-dark);
+    box-shadow: var(--text-dark) 0px 0px 5px;
 }
 
 .modal {

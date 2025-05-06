@@ -1,4 +1,4 @@
-@import url('style.css');
+@import url('/style.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 *{
@@ -17,15 +17,24 @@
     --max-width: 1200px;
   }
 
-header, footer{
+header{
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--white);
+    background-color: var(--secondary-color);
     color: var(--text-dark);
+    background-image: linear-gradient(
+        to right,
+        #ffae0069,
+        #ff00005d
+    ),
+    url(https://i0.wp.com/assets.b9.com.br/wp-content/uploads/2019/01/vinyl-records.jpg?fit=1140%2C700&ssl=1);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main{

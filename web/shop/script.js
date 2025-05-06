@@ -50,7 +50,9 @@ const cardsContainer = document.getElementById("cardsContainer");
         cardsContainer.appendChild(card); // Adiciona o card à seção
       });
     };
+
 function mostrarDetalhes(nomeBanda, disco) {
+        const detalhes = document.getElementById('detalhes');
         const nome = document.querySelector('#detalhes .nome p');
         const imagem = document.querySelector('#detalhes img');
         const banda = document.querySelector('#detalhes .banda p');
@@ -64,7 +66,6 @@ function mostrarDetalhes(nomeBanda, disco) {
         descricao.innerHTML = disco.descricao;
         preco.innerHTML = `R$ ${disco.preco.toFixed(2)}`;
         faixas.innerHTML = disco.faixas;
-
         detalhes.classList.remove('oculto');
 }
 

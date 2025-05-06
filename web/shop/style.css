@@ -38,6 +38,7 @@ a {
 .containerLeft {
   width: 300px;
   height: 100%;
+  flex-wrap: wrap;
   background: linear-gradient(to bottom, #ffae009f, #ff0000a9);
   padding: 2rem 1rem;
   display: flex;
@@ -50,7 +51,9 @@ a {
 .containerLeft a {
   color: var(--text-dark);
   font-size: 2.2rem;
-  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .containerLeft a:hover {
@@ -82,6 +85,22 @@ a {
 .containerLeft ul li:hover {
   background-color: #fff5;
 }
+
+.icon-bar {
+  display: flex;
+  gap: 1rem; /* espaço entre os ícones */
+  margin-bottom: 1rem;
+}
+
+.icon-bar a {
+  font-size: 2rem;
+  color: var(--text-dark);
+}
+
+.icon-bar a:hover {
+  color: var(--primary-color);
+}
+
 
 .containerRight {
   flex: 1;

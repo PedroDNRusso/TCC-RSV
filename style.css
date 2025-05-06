@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #b31b00;
+    --primary-color-dark: #ff0000;
+    --primary-color-light: #e9f7f79a;
+    --secondary-color: #fb923c;
+    --secondary-color-dark: #c5671a;
+    --text-dark: #000000;
+    --text-ligth: #767268;
+    --white: #ffffff;
+    --max-width: 1200px;
+}
+
 button {
     border-radius: 5px;
     border: none;

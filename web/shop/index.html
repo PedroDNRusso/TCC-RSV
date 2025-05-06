@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/27/27011.png"/>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+  <title>DiscoHouse - Disco</title>
 </head>
 <body>
-    
+  <main class="container">
+    <div class="containerLeft">
+      <a href="../home/index.html"><i class="ri-home-4-line"></i></a>
+      <h1>Encontre sua banda favorita e seu disco!</h1>
+      <ul id="listaBandas">
+        <!-- Bandas serão inseridas aqui dinamicamente -->
+      </ul>
+    </div>
+    <div class="containerRight">
+      <h2>Discos</h2>
+      <div id="cardsContainer">
+        <!-- Os discos da banda serão exibidos aqui -->
+      </div>
+    </div>
+  </main>
+  <section id="detalhes" class="modal oculto">
+    <div class="janela">
+        <div class="cabecalho">
+            <h2></h2>
+            <button onclick="window.location.reload()">X</button>
+        </div>
+        <div class="conteudo">
+            <img src="" alt="Imagem do produto">
+            <div class="banda">
+                <h3>Banda</h3>
+                <p></p>
+            </div>
+            <div class="nome">
+                <h3>Nome</h3>
+                <p></p>
+            </div>
+            <div class="descricao">
+                <h3>Descrição</h3>
+                <p></p>
+            </div>
+            <div class="preco">
+                <h3>Preço</h3>
+                <p></p>
+            </div>
+            <div class="faixas">
+                <h3>Faixas</h3>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
+<script src="script.js"></script>
 </html>

@@ -1,0 +1,138 @@
+[
+  {
+    "nome": "Queen",
+    "discos": [
+      {
+        "nome": "A Night at the Opera",
+        "ano": 1975,
+        "preco": 500.00,
+        "descricao": "O álbum é conhecido por sua produção elaborada e pela mistura de estilos musicais, incluindo rock, ópera e música clássica.",
+        "faixas": [
+          "Death on Two Legs (Dedicated to...)",
+          "Lazing on a Sunday Afternoon",
+          "I'm in Love with My Car",
+          "You're My Best Friend",
+          "39",
+          "Sweet Lady",
+          "Seaside Rendezvous",
+          "The Prophet's Song",
+          "Love of My Life",
+          "Good Company",
+          "Bohemian Rhapsody",
+          "God Save the Queen"
+        ],
+        "imagem": "https://upload.wikimedia.org/wikipedia/en/0/09/Queen_A_Night_At_The_Opera.png"
+      },
+      {
+        "nome": "News of the World",
+        "ano": 1977,
+        "preco": 500.00,
+        "descricao": "O álbum é conhecido por suas faixas de rock pesado e por incluir o famoso hino 'We Will Rock You'.",
+        "faixas": [
+          "We Will Rock You",
+          "We Are the Champions",
+          "Sheer Heart Attack",
+          "All Dead, All Dead",
+          "Spread Your Wings",
+          "Fight from the Inside",
+          "Get Down, Make Love",
+          "Sleeping on the Sidewalk",
+          "Who Needs You",
+          "It's Late",
+          "My Melancholy Blues"
+        ],
+        "imagem": "https://upload.wikimedia.org/wikipedia/en/0/00/Queen_News_Of_The_World.png"
+      }
+    ]
+  },
+  {
+    "nome": "Pink Floyd",
+    "discos": [
+      {
+        "nome": "The Dark Side of the Moon",
+        "ano": 1973,
+        "preco": 500.00,
+        "descricao": "O álbum é um marco na história do rock progressivo e é considerado um dos melhores álbuns de todos os tempos.",
+        "faixas": [
+          "Speak to Me",
+          "Breathe",
+          "On the Run",
+          "Time",
+          "The Great Gig in the Sky",
+          "Money",
+          "Us and Them",
+          "Any Colour You Like",
+          "Brain Damage",
+          "Eclipse"
+        ],
+        "imagem": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
+      },
+      {
+        "nome": "Wish You Were Here",
+        "ano": 1975,
+        "preco": 500.00,
+        "descricao": "O álbum é uma homenagem ao ex-membro da banda Syd Barrett, que havia deixado o grupo devido a problemas mentais.",
+        "faixas": [
+          "Shine On You Crazy Diamond (Parts I-V)",
+          "Welcome to the Machine",
+          "Have a Cigar",
+          "Wish You Were Here",
+          "Shine On You Crazy Diamond (Parts VI-IX)"
+        ],
+        "imagem": "https://upload.wikimedia.org/wikipedia/en/1/1b/Wish_You_Were_Here_(Pink_Floyd_album_-_cover_art).jpg"
+      }
+    ]
+  },
+  {
+    "nome": "The Beatles",
+    "discos": [
+      {
+        "nome": "Abbey Road",
+        "ano": 1969,
+        "preco": 600.00,
+        "descricao": "O álbum é considerado um dos melhores da banda e apresenta uma mistura de rock, pop e baladas.",
+        "faixas": [
+          "Come Together",
+          "Something",
+          "Maxwell's Silver Hammer",
+          "Oh! Darling",
+          "Octopus's Garden",
+          "I Want You (She's So Heavy)",
+          "Here Comes the Sun",
+          "Because",
+          "You Never Give Me Your Money",
+          "Sun King",
+          "Mean Mr. Mustard",
+          "Polythene Pam",
+          "She Came in Through the Bathroom Window",
+          "Golden Slumbers",
+          "Carry That Weight",
+          "The End"
+        ],
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiQnj1hBvLgZyri2UozQhFJLfciMpp92-DBQ&size=300x300&quality=95&auto=format"
+      },
+      {
+        "nome": "Sgt. Pepper's Lonely Hearts Club Band",
+        "ano": 1967,
+        "preco": 550.00,
+        "descricao": "O álbum é um marco na história da música e é conhecido por sua produção inovadora e por suas letras psicodélicas.",
+        "faixas": [
+          "Sgt. Pepper's Lonely Hearts Club Band",
+          "With a Little Help from My Friends",
+          "Lucy in the Sky with Diamonds",
+          "Getting Better",
+          "Fixing a Hole",
+          "She's Leaving Home",
+          "Being for the Benefit of Mr. Kite!",
+          "Within You Without You",
+          "When I'm Sixty-Four",
+          "Lovely Rita",
+          "Good Morning Good Morning",
+          "Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
+          "A Day in the Life"
+        ],
+        "imagem": "https://upload.wikimedia.org/wikipedia/en/3/3e/The_Beatles_-_Sgt._Pepper%27s_Lonely_Hearts_Club_Band.jpg"
+      }
+    ]
+  }
+]

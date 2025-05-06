@@ -1,0 +1,177 @@
+@import url('/style.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #b31b00;
+  --primary-color-dark: #ff0000;
+  --primary-color-light: #e9f7f79a;
+  --secondary-color: #fb923c;
+  --secondary-color-dark: #c5671a;
+  --text-dark: #000000;
+  --text-ligth: #767268;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--white);
+  color: var(--text-dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.containerLeft {
+  width: 300px;
+  height: 100%;
+  background: linear-gradient(to bottom, #ffae009f, #ff0000a9);
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  overflow-y: auto;
+}
+
+.containerLeft a {
+  color: var(--text-dark);
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.containerLeft a:hover {
+  color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.containerLeft h1 {
+  font-size: 1.5rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.containerLeft ul {
+  list-style: none;
+  width: 100%;
+}
+
+.containerLeft ul li {
+  background-color: #fff3;
+  color: var(--white);
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.containerLeft ul li:hover {
+  background-color: #fff5;
+}
+
+.containerRight {
+  flex: 1;
+  padding: 2rem;
+  background-color: var(--white);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  width: 220px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card .info {
+  padding: 1rem;
+}
+
+.card .info h3 {
+  margin: 0 0 10px;
+}
+
+.card .info p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+  color: var(--text-ligth);
+}
+
+.card button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .card button:hover {
+    background-color: #e60000;
+  }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .containerLeft {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+  .containerRight {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .cards-container {
+    justify-content: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+  

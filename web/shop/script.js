@@ -1,3 +1,8 @@
+function fecharModal() {
+  const modal = document.getElementById("detalhes");
+  modal.classList.add("oculto");
+}
+
 const listaBandas = document.getElementById("listaBandas");
 const cardsContainer = document.getElementById("cardsContainer");
     // Vamos pegar os dados do arquivo JSON
@@ -35,6 +40,7 @@ const cardsContainer = document.getElementById("cardsContainer");
             <h3>${disco.nome}</h3>
             <p>Banda: ${banda.nome}</p>
             <p>Ano: ${disco.ano}</p>
+            <p>Preço: R$ ${disco.preco.toFixed(2)}</p>
             <button>Ver mais</button>
           </div>
         `;

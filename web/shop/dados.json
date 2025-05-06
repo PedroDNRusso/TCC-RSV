@@ -5,7 +5,7 @@
       {
         "nome": "A Night at the Opera",
         "ano": 1975,
-        "preco": 500.00,
+        "preco": 350.00,
         "descricao": "O álbum é conhecido por sua produção elaborada e pela mistura de estilos musicais, incluindo rock, ópera e música clássica.",
         "faixas": [
           "Death on Two Legs (Dedicated to...)",
@@ -21,12 +21,12 @@
           "Bohemian Rhapsody",
           "God Save the Queen"
         ],
-        "imagem": "https://upload.wikimedia.org/wikipedia/en/0/09/Queen_A_Night_At_The_Opera.png"
+        "imagem": "data:image/jpeg;base64,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"
       },
       {
         "nome": "News of the World",
         "ano": 1977,
-        "preco": 500.00,
+        "preco": 270.00,
         "descricao": "O álbum é conhecido por suas faixas de rock pesado e por incluir o famoso hino 'We Will Rock You'.",
         "faixas": [
           "We Will Rock You",
@@ -41,7 +41,7 @@
           "It's Late",
           "My Melancholy Blues"
         ],
-        "imagem": "https://upload.wikimedia.org/wikipedia/en/0/00/Queen_News_Of_The_World.png"
+        "imagem": "data:image/jpeg;base64,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"
       }
     ]
   },
@@ -79,7 +79,131 @@
           "Wish You Were Here",
           "Shine On You Crazy Diamond (Parts VI-IX)"
         ],
-        "imagem": "https://upload.wikimedia.org/wikipedia/en/1/1b/Wish_You_Were_Here_(Pink_Floyd_album_-_cover_art).jpg"
+        "imagem": "https://www.progarchives.com/progressive_rock_discography_covers/364/cover_2125102052012_r.jpg"
+      },
+      {
+        "nome": "Animals",
+        "ano": 1977,
+        "preco": 500.00,
+        "descricao": "O álbum é uma crítica social e política, usando metáforas de animais para representar diferentes classes sociais.",
+        "faixas": [
+          "Pigs on the Wing (Part 1)",
+          "Dogs",
+          "Pigs (Three Different Ones)",
+          "Sheep",
+          "Pigs on the Wing (Part 2)"
+        ],
+        "imagem": "https://upload.wikimedia.org/wikipedia/pt/4/4a/Pink_Floyd_-_Animals.jpg"
+      },
+      {
+        "nome": "The Wall",
+        "ano": 1979,
+        "preco": 500.00,
+        "descricao": "O álbum é um conceito que conta a história de Pink, um personagem fictício que representa o próprio Roger Waters.",
+        "faixas": [
+          "In the Flesh",
+          "The Thin Ice",
+          "Another Brick in the Wall, Part 1",
+          "The Happiest Days of Our Lives",
+          "Another Brick in the Wall, Part 2",
+          "Mother",
+          "Goodbye Blue Sky",
+          "Empty Spaces",
+          "What Shall We Do Now?",
+          "Young Lust",
+          "One of My Turns",
+          "Don't Leave Me Now",
+          "Another Brick in the Wall, Part 3",
+          "Goodbye Cruel World",
+          "Hey You",
+          "Is There Anybody Out There?",
+          "Nobody Home",
+          "Vera",
+          "Bring the Boys Back Home",
+          "Comfortably Numb",
+          "The Show Must Go On",
+          "In the Flesh",
+          "Run Like Hell",
+          "Waiting for the Worms",
+          "Stop",
+          "The Trial",
+          "Outside the Wall"
+        ],
+        "imagem": "https://i.discogs.com/xRfBYg9a3lBBaCsxSFWrmlLMNdCyCD8lXqg-8tf3SNA/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY0NTk2/MjQtMTQxOTc4Mjgx/MC02MzQ5LmpwZWc.jpeg"
+      },
+      {
+        "nome": "A Momentary Lapse of Reason",
+        "ano": 1987,
+        "preco": 500.00,
+        "descricao": "O álbum marca o retorno da banda após a saída de Roger Waters e apresenta um som mais comercial.",
+        "faixas": [
+          "Signs of Life",
+          "Learning to Fly",
+          "The Dogs of War",
+          "One Slip",
+          "On the Turning Away",
+          "Yet Another Movie",
+          "Round and Around",
+          "A New Machine (Part 1)",
+          "Terminal Frost",
+          "A New Machine (Part 2)",
+          "Sorrow"
+        ],
+        "imagem": "https://m.media-amazon.com/images/I/81l8WzoMHyL.jpg"
+      },
+      {
+        "nome": "Meddle",
+        "ano": 1971,
+        "preco": 350.00,
+        "descricao": "O álbum é conhecido por sua experimentação sonora e pela faixa épica 'Echoes', que ocupa toda a segunda metade do disco.",
+        "faixas": [
+          "One of These Days",
+          "A Pillow of Winds",
+          "Fearless",
+          "San Tropez",
+          "Seamus",
+          "Echoes"
+        ],
+        "imagem": "https://i.discogs.com/jT038nTOeosPd-2OCet_r_HC1kpZl0KEmS2aswPWywE/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkwNjM5/MDgtMTQ3NDY1ODM3/Ni05MzkzLmpwZWc.jpeg"
+      },
+      {
+        "nome": "The Final Cut",
+        "ano": 1983,
+        "preco": 500.00,
+        "descricao": "O álbum é uma continuação do conceito de 'The Wall' e é uma crítica à guerra e à política.",
+        "faixas": [
+          "The Post War Dream",
+          "Your Possible Pasts",
+          "One of the Few",
+          "The Hero's Return",
+          "The Gunner's Dream",
+          "Paranoid Eyes",
+          "Get Your Filthy Hands Off My Desert",
+          "The Fletcher Memorial Home",
+          "Southampton Dock",
+          "The Final Cut"
+        ],
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtYDYvDftkk3WwiZ2TfnSTcyXPpUaxTc8fuA&s"
+      },
+      {
+        "nome": "The Division Bell",
+        "ano": 1994,
+        "preco": 500.00,
+        "descricao": "O álbum é uma reflexão sobre a comunicação e os relacionamentos, e apresenta uma sonoridade mais acessível.",
+        "faixas": [
+          "Cluster One",
+          "What Do You Want from Me",
+          "Poles Apart",
+          "Marooned",
+          "A Great Day for Freedom",
+          "Wearing the Inside Out",
+          "Take It Back",
+          "Coming Back to Life",
+          "Keep Talking",
+          "Lost for Words",
+          "High Hopes"
+        ],
+        "imagem": "https://i.discogs.com/t5Y6ClMOUc6Xuunz4hMaLgNbwN_cBkZDp_2fq7F9Ydg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzYw/NjMtMTM5OTMwNjUw/NC00MDExLmpwZWc.jpeg"
       }
     ]
   },
@@ -131,7 +255,29 @@
           "Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
           "A Day in the Life"
         ],
-        "imagem": "https://upload.wikimedia.org/wikipedia/en/3/3e/The_Beatles_-_Sgt._Pepper%27s_Lonely_Hearts_Club_Band.jpg"
+        "imagem": "https://i.guim.co.uk/img/media/787eba5669479c0a232d7263a46512e93b9758df/33_175_3529_3363/master/3529.jpg?width=445&dpr=1&s=none&crop=none"
+      }
+    ]
+  },
+  {
+    "nome": "Led Zeppelin",
+    "discos": [
+      {
+        "nome": "Led Zeppelin IV",
+        "ano": 1971,
+        "preco": 600.00,
+        "descricao": "O álbum é conhecido por sua mistura de rock, folk e blues, e apresenta a famosa faixa 'Stairway to Heaven'.",
+        "faixas": [
+          "Black Dog",
+          "Rock and Roll",
+          "The Battle of Evermore",
+          "Stairway to Heaven",
+          "Misty Mountain Hop",
+          "Four Sticks",
+          "Going to California",
+          "When the Levee Breaks"
+        ],
+        "imagem": "https://upload.wikimedia.org/wikipedia/en/3/3f/Led_Zeppelin_IV.jpg"
       }
     ]
   }

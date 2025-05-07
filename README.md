@@ -55,8 +55,8 @@ Loja de venda de discos online, com carrinho e função de vender seus proprios 
 
 ![Wireframe01](./docs/Wireframe01.PNG)
 ![Wireframe02](./docs/Wireframe02.PNG)
-![Wireframe03](./docs/Wireframe03.PNG)
-![Wireframe04](./docs/Wireframe04.PNG)
+![Wireframe03](./docs/Wireframe03.png)
+![Wireframe04](./docs/Wireframe04.png)
 
 ## Progresso de Desenvolvimento
 

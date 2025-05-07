@@ -56,15 +56,16 @@ Loja de venda de discos online, com carrinho e função de vender seus proprios 
 ![Wireframe01](./docs/Wireframe01.PNG)
 ![Wireframe02](./docs/Wireframe02.PNG)
 ![Wireframe03](./docs/Wireframe03.PNG)
+![Wireframe04](./docs/Wireframe04.PNG)
 
 ## Progresso de Desenvolvimento
 
 | Data  | Alterações |
 | ------------- |:-------------:|
 | 03/05/2025     | Começo do Projeto     |
-| 04/05/2025     | Desenvolvimento de Pagina Inicial e Cadastro (Front-End)     |
+| 04/05/2025     | Desenvolvimento de Pagina Inicial e Cadastro (Front-End)    |
 | 05/05/2025 | Desenvolvimento Pagina de Produtos (Front-End)     |
-| 06/05/2025 | Pagina de Produtos concluida, inicio do desenvolvimento de "carrinho"    |
-| 07/05/2025 | Pagina de Carrinho Pronta    |
+| 06/05/2025 | Pagina de Produtos concluida, inicio do desenvolvimento de "Carrinho"    |
+| 07/05/2025 | Pagina de Carrinho Pronta (Front-End), desenvolvendo pagina "Finalizar Compra"    |
 
-## ByPedroDuarte
+## Desenvolvido por Pedro Duarte

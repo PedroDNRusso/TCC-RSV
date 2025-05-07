@@ -65,5 +65,6 @@ Loja de venda de discos online, com carrinho e função de vender seus proprios 
 | 04/05/2025     | Desenvolvimento de Pagina Inicial e Cadastro (Front-End)     |
 | 05/05/2025 | Desenvolvimento Pagina de Produtos (Front-End)     |
 | 06/05/2025 | Pagina de Produtos concluida, inicio do desenvolvimento de "carrinho"    |
+| 07/05/2025 | Pagina de Carrinho Pronta    |
 
 ## ByPedroDuarte

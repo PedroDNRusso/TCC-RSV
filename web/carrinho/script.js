@@ -44,43 +44,30 @@ function exibirCarrinho() {
 function add(indice) {
     const disco = carrinho[indice];
     disco.quantidade += 1;
-    disco.total = disco.quantidade * (disco.preco + disco.frete); // Atualiza o total
+    disco.total = disco.quantidade * (disco.preco + disco.frete); 
 
-    // Atualiza o carrinho no localStorage
     localStorage.setItem('carrinho', JSON.stringify(carrinho));
 
-    // Re-exibe o carrinho com a quantidade atualizada
     exibirCarrinho();
 }
 
 function sub(indice) {
     const disco = carrinho[indice];
-    disco.quantidade -= 1; // Subtrai 1
+    disco.quantidade -= 1; 
 
     if (disco.quantidade <= 0) {
-        // Remove o item do carrinho
         carrinho.splice(indice, 1);
     } else {
-        // Atualiza o total normalmente
         disco.total = disco.quantidade * (disco.preco + disco.frete);
     }
-
-    // Atualiza o carrinho no localStorage
     localStorage.setItem('carrinho', JSON.stringify(carrinho));
-
-    // Re-exibe o carrinho com a quantidade atualizada
     exibirCarrinho();
 }
 
 
 function enviarPedido() {
-    // Lógica para enviar o pedido (exemplo simples)
     alert("Pedido enviado com sucesso!");
-
-    // Limpa o carrinho no localStorage
     localStorage.removeItem('carrinho');
-
-    // Atualiza a interface para refletir que o carrinho foi limpo
-    carrinho = []; // Zera o array do carrinho
-    exibirCarrinho(); // Atualiza a exibição do carrinho (agora vazio)
+    carrinho = []; 
+    exibirCarrinho();
 }

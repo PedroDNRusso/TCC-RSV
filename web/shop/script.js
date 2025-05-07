@@ -9,36 +9,34 @@ function fecharModal() {
 const listaBandas = document.getElementById("listaBandas");
 const cardsContainer = document.getElementById("cardsContainer");
 
-// Vamos pegar os dados do arquivo JSON
+
 fetch("dados.json")
   .then(response => response.json())
   .then(bandas => {
-    // Preenche o menu lateral com as bandas
     bandas.forEach((banda) => {
       const li = document.createElement("li");
       li.textContent = banda.nome;
-      li.style.cursor = "pointer"; // Adiciona o estilo de cursor de ponteiro
-      li.onclick = () => mostrarDiscos(banda); // Ao clicar na banda, mostra os discos
+      li.style.cursor = "pointer"; 
+      li.onclick = () => mostrarDiscos(banda); 
       listaBandas.appendChild(li);
     });
 
-    // Mostra os discos da primeira banda (como padrão)
+    
     if (bandas.length > 0) {
       mostrarDiscos(bandas[0]);
     }
   })
   .catch(error => console.error("Erro ao carregar os dados:", error));
 
-// Função para mostrar os discos de uma banda
 function mostrarDiscos(banda) {
-  cardsContainer.innerHTML = ""; // Limpa os discos anteriores
-  discos = banda.discos; // Armazena os discos para uso posterior
+  cardsContainer.innerHTML = ""; 
+  discos = banda.discos; 
 
   banda.discos.forEach((disco, index) => {
     const card = document.createElement("div");
-    card.classList.add("card"); // Adiciona uma classe para o estilo do card
+    card.classList.add("card"); 
 
-    // Preenche o card com as informações do disco
+    
     card.innerHTML = `
       <img src="${disco.imagem}" alt="Capa do disco ${disco.nome}">
       <div class="info">
@@ -52,7 +50,7 @@ function mostrarDiscos(banda) {
     const botao = card.querySelector("button");
     botao.addEventListener("click", () => mostrarDetalhes(banda.nome, disco, index));
 
-    cardsContainer.appendChild(card); // Adiciona o card à seção
+    cardsContainer.appendChild(card); 
   });
 };
 

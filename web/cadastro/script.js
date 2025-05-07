@@ -1,7 +1,6 @@
 const main = document.querySelector('main');
 var discos = [];
 
-//Carregar os dados do arquivo JSON
 fetch("disco.json")
     .then(response => response.json())
     .then(data => {

@@ -117,5 +117,6 @@ npx prisma migrate dev --name init
 | 05/05/2025 | Desenvolvimento Pagina de Produtos (Front-End)     |
 | 06/05/2025 | Pagina de Produtos concluida, inicio do desenvolvimento de "Carrinho"    |
 | 07/05/2025 | Pagina de Carrinho Pronta (Front-End), desenvolvendo pagina "Finalizar Compra"    |
+| 12/05/2025 | Desenvolvendo API para cadastro com ORM Prisma    |
 
 ## Desenvolvido por Pedro Duarte

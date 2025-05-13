@@ -35,7 +35,7 @@ form.addEventListener('submit', e => {
         email: form.email.value,
         senha: form.senha.value,
     }
-    fetch('http://localhost:3000/cliente', {
+    fetch('http://localhost:3000/cadastro', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(dados)

@@ -27,7 +27,7 @@ function exibirCards() {
 }
 
 function cadastrar(){
-const form = document.querySelector('#cadastro form')
+const form = document.querySelector('#cadastro form');
 form.addEventListener('submit', e => {
     e.preventDefault()
     const dados = {
@@ -35,7 +35,7 @@ form.addEventListener('submit', e => {
         email: form.email.value,
         senha: form.senha.value,
     }
-    fetch('http://localhost:3000/cadastro', {
+    fetch('http://localhost:3000/cliente', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(dados)

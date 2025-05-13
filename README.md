@@ -18,7 +18,6 @@ Loja de venda de discos online, com carrinho e função de vender seus proprios 
 - [RF002.1] O sistema deve permitir o cliente adicionar mais de um produto no carrinho.
 - [RF002.2] O sistema deve permitir o cliente retirar mais de um produto no carrinho.
 - [RF003] O sistema deve permitir o CRUD de fornecedores.
-![Wireframe DCU](./docs/MerDer.png)
 
 ## Tecnologias Utilizadas para o Desenvolvimento
 
